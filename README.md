@@ -2,7 +2,7 @@
 
 ## Explanation:
 
-In the **HTML**, we set up a basic structure with a <div class="hero"> to contain our hero background image and text content.
+In the HTML, we set up a basic structure with a <div class="hero"> to contain our hero background image and text content.
 
 We include the necessary viewport meta tag to ensure the website scales correctly on different devices.
 
