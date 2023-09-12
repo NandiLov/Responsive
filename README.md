@@ -1,8 +1,8 @@
 # Learning Responsive web-dev
 
-##Explanation:
+## Explanation:
 
-In the HTML, we set up a basic structure with a <div class="hero"> to contain our hero background image and text content.
+**In the HTML, we set up a basic structure with a <div class="hero"> to contain our hero background image and text content.
 
 We include the necessary viewport meta tag to ensure the website scales correctly on different devices.
 
@@ -18,4 +18,4 @@ We style the hero content (h1 and p) with appropriate font sizes and margins for
 
 Using a media query (@media (max-width: 768px)), we make the hero section responsive. On screens with a maximum width of 768 pixels (typical for tablets and mobiles), we reduce the height of the hero section to 60vh and adjust the font sizes of h1 and p to make them more suitable for smaller screens.
 
-This media query ensures that the hero background image and its content are displayed effectively across various device sizes, providing a responsive user experience. You can adjust the values in the media query to suit your design and content needs for different screen sizes.
+This media query ensures that the hero background image and its content are displayed effectively across various device sizes, providing a responsive user experience. You can adjust the values in the media query to suit your design and content needs for different screen sizes.**
