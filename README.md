@@ -1,6 +1,6 @@
 # Learning Responsive web-dev
 
-## Explanation:
+# # Explanation:
 
 **In the HTML, we set up a basic structure with a <div class="hero"> to contain our hero background image and text content.
 
