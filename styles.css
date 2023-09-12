@@ -1,0 +1,47 @@
+/* Reset some default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image to the hero */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height of the hero section to viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Text color for better readability */
+}
+
+/* Style the hero content */
+.hero-content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh; /* Reduce the height on smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
